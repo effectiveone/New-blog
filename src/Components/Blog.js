@@ -6,7 +6,7 @@ import axios from 'axios';
 function Blog() {
 
 
-  const baseURL = "http://gruca.j.pl/wp-json/wp/v2/posts";
+  const baseURL = "https://gruca.j.pl/wp-json/wp/v2/posts";
   const [postz, setPostz] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
