@@ -56,39 +56,11 @@ class Resume extends Component {
 
     return (
       <section id="resume">
-        <Slide left duration={1300}>
-          <div className="row education">
-            <div className="three columns header-col">
-              <h1>
-                <span>Education</span>
-              </h1>
-            </div>
-
-            <div className="nine columns main-col">
-              <div className="row item">
-                <div className="twelve columns">{education}</div>
-              </div>
-            </div>
-          </div>
-        </Slide>
-
-        <Slide left duration={1300}>
-          <div className="row work">
-            <div className="three columns header-col">
-              <h1>
-                <span>Work</span>
-              </h1>
-            </div>
-
-            <div className="nine columns main-col">{work}</div>
-          </div>
-        </Slide>
-
-        <Slide left duration={1300}>
+              <Slide left duration={1300}>
           <div className="row skill">
             <div className="three columns header-col">
               <h1>
-                <span>Skills</span>
+                <span>Umiejętności</span>
               </h1>
             </div>
 
@@ -101,6 +73,35 @@ class Resume extends Component {
             </div>
           </div>
         </Slide>
+       
+
+        <Slide left duration={1300}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1>
+                <span>Praca</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">{work}</div>
+          </div>
+        </Slide>
+        <Slide left duration={1300}>
+          <div className="row education">
+            <div className="three columns header-col">
+              <h1>
+                <span>Edukacja</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">
+              <div className="row item">
+                <div className="twelve columns">{education}</div>
+              </div>
+            </div>
+          </div>
+        </Slide>
+  
       </section>
     );
   }

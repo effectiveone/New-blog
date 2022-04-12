@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
+import Blog from "./Blog";
 
 class About extends Component {
   render() {
@@ -14,7 +15,6 @@ class About extends Component {
     const zip = this.props.data.address.zip;
     const phone = this.props.data.phone;
     const email = this.props.data.email;
-    const resumeDownload = this.props.data.resumedownload;
 
     return (
       <section id="about">
@@ -28,12 +28,12 @@ class About extends Component {
               />
             </div>
             <div className="nine columns main-col">
-              <h2>About Me</h2>
+              <h2>O mnie</h2>
 
               <p>{bio}</p>
               <div className="row">
                 <div className="columns contact-details">
-                  <h2>Contact Details</h2>
+                  <h2>Informacje kontaktowe</h2>
                   <p className="address">
                     <span>{name}</span>
                     <br />
@@ -48,12 +48,9 @@ class About extends Component {
                     <span>{email}</span>
                   </p>
                 </div>
-                <div className="columns download">
-                  <p>
-                    <a href={resumeDownload} className="button">
-                      <i className="fa fa-download"></i>Download Resume
-                    </a>
-                  </p>
+                <div className="columns download blog">
+            Moje ostatnie wpisy na blogu:
+            <Blog/>
                 </div>
               </div>
             </div>

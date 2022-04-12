@@ -17,22 +17,22 @@ class Header extends Component {
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-            Show navigation
+            Zobacz nawigację
           </a>
           <a className="mobile-btn" href="#home" title="Hide navigation">
-            Hide navigation
+            Ukryj nawigację
           </a>
 
           <ul id="nav" className="nav">
             <li className="current">
               <a className="smoothscroll" href="#home">
-                Home
+                Strona Główna
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#about">
-                About
+                O mnie
               </a>
             </li>
 
@@ -44,13 +44,13 @@ class Header extends Component {
 
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                Projekt
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#contact">
-                Contact
+                Kontakt
               </a>
             </li>
           </ul>
@@ -68,7 +68,7 @@ class Header extends Component {
             <Fade bottom duration={2000}>
               <ul className="social">
                 <a href={project} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Project
+                  <i className="fa fa-book"></i>Blog
                 </a>
                 <a href={github} className="button btn github-btn">
                   <i className="fa fa-github"></i>Github

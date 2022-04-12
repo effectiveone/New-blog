@@ -23,9 +23,9 @@ class Footer extends Component {
               <ul className="social-links">{networks}</ul>
 
               <ul className="copyright">
-                <li>&copy; Copyright 2021 Nordic Giant</li>
+                <li>&copy; Copyrissght 2021 Nordic Giant</li>
                 <li>
-                  Design by{" "}
+                  Stworzone przez {" "}
                   <a title="Styleshout" href="http://www.styleshout.com/">
                     Styleshout
                   </a>

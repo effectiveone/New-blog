@@ -90,7 +90,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #0762f9; }
+header .social li a:hover { color: #003263; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -174,7 +174,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #fe6928; }
+ul#nav li.current a { color: #ae4a84; }
 
 
 /* ------------------------------------------------------------------ */
@@ -189,7 +189,7 @@ ul#nav li.current a { color: #fe6928; }
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #0762f9; }
+#about a:hover, #about a:focus { color: #003263; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -313,7 +313,7 @@ ul#nav li.current a { color: #fe6928; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #003263;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -990,7 +990,7 @@ footer .social-links li:first-child { margin-left: 0; }
 	display: block;
 	width: 60px;
 	height: 60px;
-	background-color: #525252;
+	background-color: #003263;
 
 	-webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
@@ -1017,8 +1017,8 @@ footer .social-links li:first-child { margin-left: 0; }
    margin-right: 15px;
 }
 .project-btn{
-   background-color: #1abc9c !important;
+   background-color: #ae4a84 !important;
 }
 .github-btn{
-   background-color: #34495e !important;
+   background-color: #003263 !important;
 }
